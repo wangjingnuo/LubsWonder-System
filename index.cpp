@@ -57,7 +57,7 @@ int main()
 			infile.open("/password.txt");
 			infile>>CorrectPassword;
 			infile.close();
-			cout<<username
+			cout<<username; 
 			if(strcmp(username, CorrectUsername)+strcmp(password, CorrectPassword)==0)
 			{
 				slowc("Welcome, ");slowc(username);slowc(".");
@@ -99,7 +99,7 @@ int main()
 		Sleep(2000);
 		system("cls");
 	}
-	SetConsoleTitle("Use - LubsWonder")
+	SetConsoleTitle("Use - LubsWonder");
 	while(1)
 	{
 		slowc("You can:");cout<<endl<<endl;slowc("1.Calculator 2.Statistical Word 3.Power Off");
